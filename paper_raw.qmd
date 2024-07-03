@@ -1,0 +1,54 @@
+---
+title: "FixML -- Developing and Using Checklists for ML models using LLMs"
+abstract: |
+    The far reaching impacts of machine learning and artificial intelligence systems means that robust testing should be required prior to implementation. Because many of these systems are proprietary however, it is difficult to assess the extent of key testing criteria. The FixML system leverages Large Language Models to automate the evaluation of unit tests within Machine Learning projects. We present results and discuss implications.
+format: html
+---
+
+## Introduction
+
+
+## Methods
+
+### Expert Checklist Assessment
+
+Build the checklist and distribute it to the community asking for feedback.
+
+### Manual Evaluation of Checklist
+
+Check repositories against the checklist, either having us do it, or somehow crowd-sourcing it.
+
+### FixML Evaluation of Checklist
+
+#### Prompt Engineering
+
+Here I think we can try out some ideas for different prompt structures for focal questions.
+
+#### LLM Choice
+
+Choose a couple and just run FixML.
+
+#### Evaluation Against Expert Opinion
+
+This would be FixML assessed against the existing manual evaluation mentioned previously.
+
+## Results
+
+### Checklist Evaluation
+
+* I think here we should assess repositories manually (using the openja records) to show the extent to which the checklist is implemented manually.
+
+* Then we show the results of FixML in this case, highlighting both success/failure, and then consistency. Break it down by LLM model type (OpenAI 3.5, 4.0, and Llama maybe?) and then use this sort of model to think about it:
+  * Why is it inaccurate?
+    * Checklist instructions/prompts are bad (maybe show how improving the prompt can improve the results?)
+    * Models are bad (show changes between LLMs)
+    * Repository tests are non-uniform
+    * Some combination of all of these
+  
+### Implementation in Education
+
+Here, I think if we wait a bit, it would be really cool to have students self assess against checklist items, have them run FixML and see what results they get, improve the submission and then, evaluate with FixML (and self assess again). Then we could actually have some reporting on how it can improve perceptions of code performance and testing.
+
+## Conclusions
+
+Things are cool.
