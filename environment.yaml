@@ -1,0 +1,14 @@
+name: 'FixML_Paper'
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    - python=3.11.*
+    - pip
+    - ipykernel
+    - nb_conda_kernels
+    - altair=5.1.2
+    - vl-convert-python 
+    - vegafusion  
+    - vegafusion-python-embed  
+    - vegafusion-jupyter  
