@@ -1,0 +1,26 @@
+---
+title: "Five Machine Learning Projects from Nature Computational Science Journal"
+format: html
+---
+
+Following five machine learning projects from Nature Computational Science journal are selected to evaluate FixML's performance on their associated repositories.
+
+### 1. [MMM](https://github.com/FraunhoferMEVIS/MedicalMultitaskModeling)
+    
+    With 21 test files, it has the most tests among all machine learning projects published in Nature Computational Science journal since 2021. The model runs in a Docker container and features a clear test file naming structure. This project could serve either as a strong example if it meets most checklist requirements, or as an instructive case study if it lacks essential machine learning tests.
+    
+### 2. [**ProteiML**](https://github.com/sarahwaity/ProteiML)
+    
+    With 7 test files, it demonstrates a moderately structured test suite. This repository allows us to assess how well FixML handles predictive models, particularly those in specialized domains like bioinformatics. Its modular codebase also provides an opportunity to evaluate FixML’s adaptability in verifying workflows that involve complex data preprocessing and feature engineering pipelines.
+    
+### 3. [**electrondensity2**](https://github.com/croningp/electrondensity2)
+    
+    ElectronDensity2 is a machine learning project designed for predicting electron density maps in computational chemistry, using deep learning algorithm. The repository leverages computer vision techniques to analyze and predict spatial electron distributions, making it an ideal candidate to assess FixML’s ability to handle computer vision-based models. Its relatively unique application domain provides a test case for evaluating FixML’s adaptability to specialized scientific problems, while its structure and methodology allow for analyzing FixML’s performance in ensuring robust testing practices in computer vision workflows.
+    
+### 4. [**OAReactDiff**](https://github.com/chenruduan/OAReactDiff)
+    
+    OAReactDiff is a machine learning model for predicting chemical reaction outcomes using natural language processing (NLP) and cheminformatics. The repository uses transformer architectures to analyze chemical reaction data, making it ideal for testing FixML's performance with large language models (LLMs) and sequence-to-sequence tasks. This model can serve as an excellent case study for evaluating FixML's ability to validate NLP pipelines and handle interdisciplinary work in chemistry and machine learning.
+    
+### 5. [**M3GNet**](https://github.com/materialsvirtuallab/m3gnet/tree/main)
+    
+    M3GNet is a machine learning model designed for materials property prediction and structural optimization, combining graph neural networks (GNNs) with interatomic potential modeling. This repository serves as an excellent candidate for evaluating FixML's performance on graph-based machine learning models, particularly in computational materials science. The model's focus on predicting physical and chemical properties makes it ideal for testing FixML's ability to handle specialized, domain-specific datasets and complex workflows involving both regression and structural optimization tasks. With 18 test files across different test folders, it offers a strong opportunity to evaluate FixML's capability to understand relationships between tests.
